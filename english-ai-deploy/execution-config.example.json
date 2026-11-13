@@ -12,9 +12,9 @@
     "start_script": "run.sh",
     "port": 8000,
     "environment": {
-      "BAIDU_API_KEY": "QWUbvkdkbfpRFIndklqEnPaV",
-      "BAIDU_SECRET_KEY": "ycbr4sjVVRO17xTAsZUEoOsbp396nhqN",
-      "QWEN_API_KEY": "sk-ws-H.YPXMPLX.6avr.MEUCIGOy-BM8-RYnUArdJxkVrtO_9y24bIcMO7gk71889gyaAiEAoi3Cc6AyP3GUk8UGN5rNhN89DnLnMKpMhD0XfnAtMW0",
+      "BAIDU_API_KEY": "在这里填百度API Key",
+      "BAIDU_SECRET_KEY": "在这里填百度Secret Key",
+      "QWEN_API_KEY": "在这里填通义千问API Key",
       "QWEN_MODEL": "qwen-turbo",
       "PORT": "8000"
     }

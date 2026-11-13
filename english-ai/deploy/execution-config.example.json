@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "build": {
+    "runtime_key": "nodejs20",
+    "build_script": "build.sh",
+    "output_dir": "dist",
+    "environment": {},
+    "timeout_seconds": 3600
+  },
+  "runtime": {
+    "runtime_key": "nodejs20",
+    "start_script": "run.sh",
+    "port": 8000,
+    "environment": {
+      "BAIDU_API_KEY": "在这里填百度API Key",
+      "BAIDU_SECRET_KEY": "在这里填百度Secret Key",
+      "QWEN_API_KEY": "在这里填通义千问API Key",
+      "QWEN_MODEL": "qwen-turbo",
+      "PORT": "8000"
+    }
+  }
+}
