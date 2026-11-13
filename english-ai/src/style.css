@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4F46E5;
+  --color-primary-light: #818CF8;
+  --color-bubble-ai: #F3F4F6;
+  --color-bubble-user: #4F46E5;
+}
+
+/* 手机端基础样式 */
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overscroll-behavior: none;
+}
+
+/* 对话气泡滚动区 */
+.chat-scroll::-webkit-scrollbar {
+  width: 0;
+}
